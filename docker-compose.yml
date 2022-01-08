@@ -1,0 +1,18 @@
+version: '3.3'
+
+services:
+  pg_searcher:
+    image: pg_searcher:0.0.1
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: postgres
+  sql_searcher_backend:
+    image: sql_searcher_backed:0.0.1
+    restart: always
+    ports:
+      - 8080:8080
+    environment:
+      GCP_DEVELOPER_KEY: "your key"
+      GCP_SEARCH_ENGINE_ID: "your key"   
