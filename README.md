@@ -1,4 +1,4 @@
-# SQL searcher
+# WebCrepe
 
 This is a postgres extension that connects to a google custom search project and allows you to write SQL and get results fro mthe internet.
 
