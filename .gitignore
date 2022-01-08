@@ -1,0 +1,8 @@
+backend/bin
+backend/__pycache__
+backend/include
+backend/lib
+backend/share
+pg_extension/sql_searcher/__pycache__
+
+config/
