@@ -4,6 +4,6 @@ setup(
   name='sql_searcher',
   version='0.0.1',
   author='Jeremy McMinis',
-  license='commercial',
+  license='SSPL',
   packages=['sql_searcher']
 )
