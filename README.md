@@ -1,8 +1,8 @@
 # WebCrepe
 
-This is a postgres extension that connects to a google custom search project and allows you to write SQL and get results fro mthe internet.
+This is a postgres extension that connects to a google custom search project and allows you to write SQL and get results from the internet.
 
-Current functionality is pretty limited.
+Current functionality is pretty limited. You can write a query using the google advanced query syntax and get the urls and brief descriptions back.
 
 ## Setup
 
